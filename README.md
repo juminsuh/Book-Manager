@@ -1,15 +1,20 @@
 ## 📚 JDBC를 활용한 데이터베이스 연동 도서 관리 시스템 개발 ##
 
-### How to Run ###
--- mysql 접속
+### 실행 방법 ###
 
-```create database dbjaja;```
+#### 1. MySQL 접속 후 실행
 
-```use dbjaja;```
+```sql
+create database dbjaja;
+use dbjaja;
+source create.sql;
+source insert.sql;
+```
 
-```source create.sql;```
+### 2. BookManager_DB_project를 BookManager.jar로 export
 
-```source insert.sql;```
+#### 3. 로컬 실행
 
--- 로컬
-```java -jar BookManager.jar```
+```bash
+java -jar BookManager.jar
+```
