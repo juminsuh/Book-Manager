@@ -11,7 +11,7 @@ source create.sql;
 source insert.sql;
 ```
 
-### 2. BookManager_DB_project를 BookManager.jar로 export
+#### 2. BookManager_DB_project를 BookManager.jar로 export
 
 #### 3. 로컬 실행
 
